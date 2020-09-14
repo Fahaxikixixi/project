@@ -1,0 +1,104 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #F3F3F3;
+}
+.container .main {
+  height: 100%;
+  overflow-y: auto;
+}
+.container .main .header_nav {
+  padding: 0.08rem;
+}
+.container .main .header_nav .nav {
+  display: flex;
+  border: 0.02px solid #e6e9f0;
+}
+.container .main .header_nav .nav li {
+  width: 25%;
+  height: 0.6rem;
+  text-align: center;
+  line-height: 0.6rem;
+  font-size: 0.28rem;
+  border-radius: 0.04px 0.04rem 0.04rem 0.04rem;
+}
+.container .main .header_nav .nav li:nth-child(1) {
+  background-color: #ffffff;
+  color: #1989FA;
+}
+.container .main .sub_nav {
+  height: 0.86rem;
+  background-color: #ffffff;
+}
+.container .main .sub_nav .state_list {
+  display: flex;
+  background-color: #ffffff;
+}
+.container .main .sub_nav .state_list li {
+  flex: 1;
+  height: 0.86rem;
+  line-height: 0.86rem;
+  text-align: center;
+  font-size: 0.28rem;
+}
+.container .main .sub_nav .state_list li:nth-child(1) {
+  color: #1989FA;
+  border-bottom: 0.02px solid rgba(24, 144, 255);
+}
+.container .main .content .content_list {
+  height: 2.26rem;
+  margin: 0.08rem;
+  border-radius: 0.2rem;
+  border: 0.02rem solid #BBBBBB;
+  background-color: #ffffff;
+}
+.container .main .content .content_list .eventsInfo {
+  display: flex;
+  height: 0.38rem;
+  padding-left: 0.2rem;
+  padding-top: 0.1rem;
+}
+.container .main .content .content_list .eventsInfo .eventsName {
+  font-size: 0.28rem;
+  color: #1C9B72;
+}
+.container .main .content .content_list .eventsInfo .time {
+  padding-left: 0.65rem;
+  font-size: 0.24rem;
+  color: #8F9DA1;
+}
+.container .main .content .content_list .ImgBox {
+  display: flex;
+  height: 75%;
+  align-items: center;
+  justify-content: center;
+}
+.container .main .content .content_list .ImgBox img {
+  width: 1.02rem;
+  height: 1.24rem;
+}
+.container .main .content .content_list .ImgBox span {
+  padding: 0 0.5rem;
+  font-size: 0.5rem;
+  color: #8F9DA1;
+}
+.container .footer .main_nav {
+  display: flex;
+  height: 1.3rem;
+  background-color: #ffffff;
+}
+.container .footer .main_nav li {
+  flex: 1;
+  text-align: center;
+}
+.container .footer .main_nav li a img {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.container .footer .main_nav li a p {
+  font-size: 0.24rem;
+}
+.container .footer .main_nav li a .txtColor {
+  color: #1890FF;
+}

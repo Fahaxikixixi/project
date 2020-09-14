@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./JS/pixel.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/Eventdetails.css">
+    <title>赛事详情</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header_text">
+
+                <a href="javascript:history.go(-1)">
+                    <img src="./img/图标 2 Copy.svg" alt="">
+                </a>
+                <span>StartLucK杯</span>
+            </div>
+            <!-- <span></span> -->
+
+            <div class="team">
+                <div class="teamBox">
+                    <img src="./img/图片 2.png" alt="">
+                    <span>Escape V</span>
+                </div>
+                <span class="vs">vs</span>
+                <div class="teamBox"><img src="./img/图片.png" alt=""><span>M Trust</span></div>
+            </div>
+            <div class="btn"><input type="button" value="未开始"></div>
+        </div>
+        <div class="nav">
+            <span class="text">竞猜</span><span>视频</span>
+        </div>
+        <div class="content">
+            <div class="time">
+                距离比赛开始还有<span>01</span>天<span>01</span>:<span>12</span>:<span>26</span>
+            </div>
+            <div class="stake">
+                <p>押胜负</p>
+                <div class="main_vote">
+                    <div class="win">
+                        <span>押</span>
+                        <div class="win_text">Escape V<span>胜</span></div>
+                    </div>
+                    <div class="fail">
+                        <span>押</span>
+                        <div class="fail_text">M Trust<span>胜</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="popup">
+        <div class="title">
+            <span>投注-Escape V胜</span>
+            <img src="./img/close.png" alt="">
+        </div>
+        <ul class="numlist">
+            <li>50</li>
+            <li>100</li>
+            <li>300</li>
+            <li>500</li>
+            <li>800</li>
+            <li>1000</li>
+        </ul>
+        <input type="text" placeholder="输入投注额" name="" id="">
+        <p>剩余鱼苗:<span>10000</span></p>
+        <input class="vote_btn" type="button" value="确定投注">
+    </div>
+
+
+</body>
+
+</html>
