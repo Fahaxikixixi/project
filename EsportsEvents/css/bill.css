@@ -1,0 +1,64 @@
+.container {
+  height: 100%;
+  background-color: #F3F3F3;
+}
+.container .header {
+  position: relative;
+  height: 0.92rem;
+  line-height: 0.92rem;
+  background-color: #F7F7F7;
+}
+.container .header a img {
+  position: absolute;
+  top: 20%;
+  width: 0.54rem;
+  height: 0.54rem;
+  margin-left: 0.1rem;
+}
+.container .header p {
+  text-align: center;
+  font-size: 0.38rem;
+}
+.container .nav .nav_list {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+}
+.container .nav .nav_list li {
+  height: 0.86rem;
+  flex: 1;
+  line-height: 0.86rem;
+  font-size: 0.28rem;
+}
+.container .content .info {
+  display: flex;
+  justify-content: space-between;
+  height: 1.26rem;
+  background-color: #ffffff;
+  margin: 0.2rem 0.1rem 0 0.05rem;
+  border: 0.02rem solid #BBBBBB;
+  padding: 0 0.4rem;
+}
+.container .content .info .infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container .content .info .infos .info_title {
+  color: #101010;
+  font-size: 0.32rem;
+}
+.container .content .info .infos .time {
+  color: #625F5F;
+  font-size: 0.28rem;
+}
+.container .content .info .num {
+  font-size: 0.28rem;
+  line-height: 1.26rem;
+  color: #101010;
+}
+.textSty {
+  color: #1890FF;
+  border-bottom: 0.02rem solid rgba(24, 144, 255);
+}

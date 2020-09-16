@@ -23,9 +23,16 @@
   font-size: 0.28rem;
   border-radius: 0.04px 0.04rem 0.04rem 0.04rem;
 }
-.container .main .header_nav .nav li:nth-child(1) {
+.container .main .header_nav .nav .tabsty {
   background-color: #ffffff;
   color: #1989FA;
+  transition: background-color 0.5s, color 0.5s;
+  -moz-transition: background-color 0.5s, color 0.5s, -moz-transform 0.5s;
+  /* Firefox 4 */
+  -webkit-transition: background-color 0.5s, color 0.5s, -webkit-transform 0.5s;
+  /* Safari and Chrome */
+  -o-transition: background-color 0.5s, color 0.5s, -o-transform 0.5s;
+  /* Opera */
 }
 .container .main .sub_nav {
   height: 0.86rem;
@@ -42,9 +49,25 @@
   text-align: center;
   font-size: 0.28rem;
 }
-.container .main .sub_nav .state_list li:nth-child(1) {
+.container .main .sub_nav .state_list .tabsty_sub {
   color: #1989FA;
   border-bottom: 0.02px solid rgba(24, 144, 255);
+  transition: color 0.5s;
+  -moz-transition: color 0.5s, -moz-transform 0.5s;
+  /* Firefox 4 */
+  -webkit-transition: color 0.5s, -webkit-transform 0.5s;
+  /* Safari and Chrome */
+  -o-transition: color 0.5s, -o-transform 0.5s;
+  /* Opera */
+}
+.container .main .pull_down {
+  display: none;
+  text-align: center;
+  font-size: 0.28rem;
+}
+.container .main .content {
+  position: relative;
+  height: 100%;
 }
 .container .main .content .content_list {
   height: 2.26rem;
@@ -98,6 +121,7 @@
 }
 .container .footer .main_nav li a p {
   font-size: 0.24rem;
+  color: #101010;
 }
 .container .footer .main_nav li a .txtColor {
   color: #1890FF;

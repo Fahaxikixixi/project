@@ -9,7 +9,7 @@
   overflow-y: auto;
   margin-top: 0.08rem;
 }
-.container .main .news {
+.container .main .news a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,7 +18,7 @@
   padding: 0 0.1rem;
   margin-top: 0.05rem;
 }
-.container .main .news .lenews {
+.container .main .news a .lenews {
   flex: 2;
   display: flex;
   flex-direction: column;
@@ -26,29 +26,29 @@
   height: 100%;
   margin-right: 0.3rem;
 }
-.container .main .news .rinews img {
+.container .main .news a .rinews img {
   width: 2.78rem;
   height: 1.76rem;
   border-radius: 0.08rem;
 }
-.container .main .news_video {
+.container .main .news_video a {
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
   margin-top: 0.05rem;
 }
-.container .main .news_video .lenews {
+.container .main .news_video a .lenews {
   height: 0.8rem;
   line-height: 0.8rem;
 }
-.container .main .news_video .lenews span {
+.container .main .news_video a .lenews span {
   padding-left: 0.1rem;
 }
-.container .main .news_video .rinews img {
+.container .main .news_video a .rinews img {
   width: 100%;
   height: 4.54rem;
 }
-.container .main .news_video .summary {
+.container .main .news_video a .summary {
   align-items: center;
   height: 0.8rem;
   margin-left: 0.1rem;
@@ -68,6 +68,7 @@
 }
 .container .footer .main_nav li a p {
   font-size: 0.24rem;
+  color: #101010;
 }
 .container .footer .main_nav li a .txtColor {
   color: #1890FF;

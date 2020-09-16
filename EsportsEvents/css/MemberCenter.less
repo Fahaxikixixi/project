@@ -1,0 +1,163 @@
+@maincolor:#F3F3F3;
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+    .main{
+        height: 100%;
+        overflow-y: auto;
+        background-color: @maincolor;
+        .header{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 3.76rem;
+            background-color: #5290FF;
+            a{
+                margin-top: .3rem;
+                margin-right: .2rem;
+                text-align: right;
+                img{
+                    width: .52rem;
+                    height: .52rem;
+                }
+            }
+            .personInfo{
+                height: 1.98rem;
+                width: 93%;
+                margin: 0 auto;
+                border-top-left-radius: .2rem;
+                border-top-right-radius: .2rem;
+                background-color: #ffffff;
+                .personInfo_box{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                    padding-left: .2rem;
+                   .userImg{
+                    //    flex: 1;
+                       height: 1.52rem;
+                       width: 1.52rem;
+                   }
+                    span{
+                        flex: 1;
+                        padding-left: .4rem;
+                        font-size: .4rem;
+                        font-weight: 550;
+                    }
+                    
+                }
+            }
+        }
+        .info{
+            display: flex;
+            // justify-content:space-around;
+            height: 1.5rem;
+            align-items: center;
+            background-color: #ffffff;
+            .leftInfo{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                border-right:.02rem solid #BBBBBB;
+            }
+            .rightInfo{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+        .menu{
+           .menulist{
+               li{
+                   height: 1.1rem;
+                   background-color: #ffffff;
+                   margin-top: .1rem;
+                   a{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 0 auto;
+                    height: 100%;
+                    width: 93%;
+                   .menuText{
+                       display: flex;
+                       align-items: center;
+                        .menuImg{
+                            width: .38rem;
+                            height: 0.38rem;
+                            background-color: #ffffff;
+                            border:.1rem solid #38C1B4;
+                            border-radius: 50%;
+                        }
+                        span{
+                            padding-left: .2rem;
+                            color: #101010;
+                            font-size: .28rem;
+                        }
+                   }
+                   
+                   }
+               }
+           } 
+        }
+        .outbtn{
+                height: .9rem;
+                width: 85%;
+                margin: .5rem auto;
+                border-radius: 1rem;
+                box-shadow: 0.01rem 0.1rem 0.1rem  rgba(170,196,240);
+                background-color: rgba(239,5,5);
+                font-weight: 530;
+                letter-spacing: .03rem;
+                border: none;
+                color: #ffffff;
+                // font-size: @textSize;
+                cursor: pointer;
+            
+        }
+    }
+    .footer{
+        .main_nav{
+            display: flex;
+            height: 1.3rem;
+            // background-color: @bcolor;
+            li{
+                flex: 1;
+                text-align: center;
+              a{    
+
+                  img{
+                      width: .8rem;
+                      height: .8rem;
+                  }
+                  p{
+                      font-size: .24rem;
+                      color: #101010;
+                  }
+                  .txtColor{
+                      color: #1890FF;
+                  }
+              }  
+            }
+        }
+    }
+}
+.num{
+    font-size: .4rem;
+    font-weight: 550;
+}
+.infoName{
+    font-size: .28rem;
+    color: #838383;
+}
+.go{
+    // flex: 1;
+    width: .52rem;
+    height: .52rem;
+    margin-right: .2rem;
+}

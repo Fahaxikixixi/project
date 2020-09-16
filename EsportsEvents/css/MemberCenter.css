@@ -1,0 +1,144 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.container .main {
+  height: 100%;
+  overflow-y: auto;
+  background-color: #F3F3F3;
+}
+.container .main .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 3.76rem;
+  background-color: #5290FF;
+}
+.container .main .header a {
+  margin-top: 0.3rem;
+  margin-right: 0.2rem;
+  text-align: right;
+}
+.container .main .header a img {
+  width: 0.52rem;
+  height: 0.52rem;
+}
+.container .main .header .personInfo {
+  height: 1.98rem;
+  width: 93%;
+  margin: 0 auto;
+  border-top-left-radius: 0.2rem;
+  border-top-right-radius: 0.2rem;
+  background-color: #ffffff;
+}
+.container .main .header .personInfo .personInfo_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-left: 0.2rem;
+}
+.container .main .header .personInfo .personInfo_box .userImg {
+  height: 1.52rem;
+  width: 1.52rem;
+}
+.container .main .header .personInfo .personInfo_box span {
+  flex: 1;
+  padding-left: 0.4rem;
+  font-size: 0.4rem;
+  font-weight: 550;
+}
+.container .main .info {
+  display: flex;
+  height: 1.5rem;
+  align-items: center;
+  background-color: #ffffff;
+}
+.container .main .info .leftInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-right: 0.02rem solid #BBBBBB;
+}
+.container .main .info .rightInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.container .main .menu .menulist li {
+  height: 1.1rem;
+  background-color: #ffffff;
+  margin-top: 0.1rem;
+}
+.container .main .menu .menulist li a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: 100%;
+  width: 93%;
+}
+.container .main .menu .menulist li a .menuText {
+  display: flex;
+  align-items: center;
+}
+.container .main .menu .menulist li a .menuText .menuImg {
+  width: 0.38rem;
+  height: 0.38rem;
+  background-color: #ffffff;
+  border: 0.1rem solid #38C1B4;
+  border-radius: 50%;
+}
+.container .main .menu .menulist li a .menuText span {
+  padding-left: 0.2rem;
+  color: #101010;
+  font-size: 0.28rem;
+}
+.container .main .outbtn {
+  height: 0.9rem;
+  width: 85%;
+  margin: 0.5rem auto;
+  border-radius: 1rem;
+  box-shadow: 0.01rem 0.1rem 0.1rem rgba(170, 196, 240);
+  background-color: rgba(239, 5, 5);
+  font-weight: 530;
+  letter-spacing: 0.03rem;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+.container .footer .main_nav {
+  display: flex;
+  height: 1.3rem;
+}
+.container .footer .main_nav li {
+  flex: 1;
+  text-align: center;
+}
+.container .footer .main_nav li a img {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.container .footer .main_nav li a p {
+  font-size: 0.24rem;
+  color: #101010;
+}
+.container .footer .main_nav li a .txtColor {
+  color: #1890FF;
+}
+.num {
+  font-size: 0.4rem;
+  font-weight: 550;
+}
+.infoName {
+  font-size: 0.28rem;
+  color: #838383;
+}
+.go {
+  width: 0.52rem;
+  height: 0.52rem;
+  margin-right: 0.2rem;
+}

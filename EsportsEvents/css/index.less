@@ -26,9 +26,13 @@
                     font-size: @textsize;
                     border-radius: 0.04px 0.04rem 0.04rem 0.04rem
                 }
-                li:nth-child(1){
-                    background-color: @bcolor;
+                .tabsty{
+                    background-color:@bcolor;
                     color: @textColor;
+                    transition: background-color .5s,color .5s;
+                    -moz-transition:background-color .5s,color .5s, -moz-transform .5s; /* Firefox 4 */
+                    -webkit-transition:background-color .5s,color .5s, -webkit-transform .5s; /* Safari and Chrome */
+                    -o-transition:background-color .5s,color .5s, -o-transform .5s; /* Opera */
                 }
             }
         }
@@ -45,15 +49,29 @@
                     text-align: center;
                     font-size: @textsize;
                 }
-                li:nth-child(1){
+                .tabsty_sub{
                     // flex: 1;
                     color: @textColor;
                     // padding-left: .5rem;
                     border-bottom: 0.02px solid rgba(24, 144,255);
+                   
+                    transition: color .5s;
+                    -moz-transition:color .5s, -moz-transform .5s; /* Firefox 4 */
+                    -webkit-transition:color .5s, -webkit-transform .5s; /* Safari and Chrome */
+                    -o-transition:color .5s, -o-transform .5s; /* Opera */
                 }
             }
         }
+        .pull_down{
+            display: none;
+            text-align: center;
+            font-size: .28rem;
+            // line-height: 90px;
+            
+        }
         .content{
+            position:relative;
+            height: 100%;
             .content_list{
                 height: 2.26rem;
                 margin: @paddings;
@@ -113,9 +131,11 @@
                   }
                   p{
                       font-size: .24rem;
+                      color: #101010;
                   }
                   .txtColor{
                       color: #1890FF;
+                      
                   }
               }  
             }
