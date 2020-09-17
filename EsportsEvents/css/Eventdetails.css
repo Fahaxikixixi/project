@@ -1,6 +1,8 @@
 .container {
   height: 100%;
   background-color: #F3F3F3;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 .container .header {
   display: flex;
@@ -81,6 +83,9 @@
 }
 .container .nav .text {
   border-bottom: 0.05rem solid #1989FA;
+}
+.container .content {
+  position: relative;
 }
 .container .content .time {
   display: flex;

@@ -1,19 +1,16 @@
 var tab = document.getElementsByClassName('tab');
 var sub = document.getElementsByClassName('sub')
 var main = document.getElementsByClassName('main')[0];
-
-
-
-
 var contents = document.getElementsByClassName('content')[0]
-
 
 
 Tabswitch(tab, 'tab', 'tab tabsty')
 Tabswitch(sub, 'sub', 'sub tabsty_sub')
 
 function Tabswitch(el, cla, newcla) {
+    // var data = data_index.getAttribute('data');
 
+    var data_index = document.querySelector('.active')
     for (var i = 0; i < el.length; i++) {
         el[i].setAttribute('data-index', i)
 
@@ -59,10 +56,11 @@ function Tabswitch(el, cla, newcla) {
 
 
             for (var x = 0; x < el.length; x++) {
-                el[x].className = cla
+                el[x].className = cla;
             }
             var index = this.getAttribute('data-index');
-            this.className = newcla
+            this.className = newcla;
+
         })
     }
 }

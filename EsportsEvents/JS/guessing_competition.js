@@ -78,8 +78,6 @@ function Tabswitch(el, cla, newcla, html, htmlone, htmltwo, htmls) {
 
     for (var i = 0; i < el.length; i++) {
         el[i].setAttribute('data-index', i)
-
-
         el[i].addEventListener('click', function(e) {
             // console.log(e);
             // console.log(this.data - index);
@@ -103,3 +101,26 @@ function Tabswitch(el, cla, newcla, html, htmlone, htmltwo, htmls) {
         })
     }
 }
+
+// for (var i = 0; i < el.length; i++) {
+//     el[i].setAttribute('data-index', i)
+//     el[i].addEventListener('click', function() {
+//         var num = this.getAttribute('data-index')
+//         if (num == 0) {
+//             content.innerHTML = html;
+//         } else if (num == 1) {
+//             content.innerHTML = htmlone;
+//         } else if (num == 2) {
+//             content.innerHTML = htmltwo;
+//         } else if (num == 3) {
+//             content.innerHTML = htmls;
+//         }
+
+
+//         for (var x = 0; x < el.length; x++) {
+//             el[x].className = cla
+//         }
+//         var index = this.getAttribute('data-index');
+//         this.className = newcla
+//     })
+// }
