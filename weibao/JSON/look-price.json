@@ -1,0 +1,35 @@
+{
+  "error_code": 0,
+  "data": {
+    "title": "项目名称",
+    "client": "客户名称",
+    "address": "客户地址",
+    "linkman": "联系人",
+    "phoneNum": 1383838438,
+    "mobile": 1383838438,
+    "fax": "传真",
+    "status": 0,
+    "device_arr": [
+      {
+        "id": 1,
+        "device_name": "膨胀螺丝",
+        "device_type": "设备型号",
+        "device_brand": "大众",
+        "unit": "辆",
+        "num": 12,
+        "price": 10,
+        "info": "备注备注"
+      },
+      {
+        "id": 2,
+        "device_name": "膨胀螺母",
+        "device_type": "设备型号",
+        "device_brand": "小众",
+        "unit": "辆",
+        "num": 12,
+        "price": 10,
+        "info": "备注备注"
+      }
+    ]
+  }
+}

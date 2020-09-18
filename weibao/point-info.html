@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>积分明细</title>
+  <script src="./public/jquery-3.3.1.min.js"></script>
+  <link rel="stylesheet" href="./public/res.css">
+  <link rel="stylesheet" href="./css/point-info.css">
+</head>
+
+<body>
+  <div class="title-box">
+    <a href="javascript:history.back(-1)" class="iconfont icon-zuo"></a>
+    <h3 class="title">积分明细</h3>
+    <span class="hide iconfont icon-zuo"></span>
+  </div>
+  <div class="tab-wrap">
+    <span class="active" tab-id="1">积分明细</span>
+    <span tab-id="2">积分扣减请求</span>
+  </div>
+  <!-- 积分明细 -->
+  <div class="info-box"></div>
+  <!-- 扣减积分请求 -->
+  <div class="req-box"></div>
+  <div class="tip-wrap">
+    <div class="tip-box">
+      <p class="tip-title">扣减积分</p>
+      <p class="tip-info">您是否同意扣减积分？</p>
+      <div class="tip-btn-box">
+        <span class="cancel">取消</span>
+        <span class="confirm">同意</span>
+      </div>
+    </div>
+  </div>
+  <!-- <p class="msg-info"></p> -->
+</body>
+<script src="./public/res.js"></script>
+<script src="./js/point-info.js"></script>
+
+</html>

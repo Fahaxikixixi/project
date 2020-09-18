@@ -1,0 +1,35 @@
+.content {
+  background-color: #fff;
+  padding-bottom: 0.86rem;
+}
+.content .item {
+  height: 3.33rem;
+  padding: 0 1.33rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.04rem solid #F2F2F2;
+}
+.content .item .tip {
+  font-size: 1.2rem;
+}
+.content .item label {
+  display: block;
+  min-width: 5rem;
+  font-size: 1.2rem;
+}
+.content .item input[type="text"] {
+  min-width: 14rem;
+  font-size: 1.2rem;
+  padding-left: 0.66rem;
+}
+.content .item .picker {
+  min-width: 14rem;
+  font-size: 1.2rem;
+  padding-left: 0.66rem;
+  color: #666;
+}
+.content .item .agree {
+  margin-left: 0.66rem;
+  color: #1989FA;
+  font-size: 0.93rem;
+}

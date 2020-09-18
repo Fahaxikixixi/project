@@ -1,0 +1,12 @@
+{
+  "error_code": 0,
+  "data": {
+    "id": 1,
+    "title": "膨胀螺丝",
+    "classify": "大类",
+    "subClassify": "小类",
+    "num": 20,
+    "info": "膨胀螺丝是一种可以固定到墙体中的部件",
+    "img_url": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1291872971,3064067380&fm=26&gp=0.jpg"
+  }
+}

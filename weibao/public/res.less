@@ -1,0 +1,92 @@
+a,article,body,button,div,footer,form,h1,h2,h3,h4,header,html,i,img,input,li,nav,ol,option,p,section,select,span,strong,textarea,ul{margin:0;padding:0}
+html{background: #fff;}
+body,html{width:100%;min-height: 100vh;}
+body{font-family:'Helvetica Neue',Helvetica,sans-serif;background-color:#f3f3f3;border: 1px solid #eee; box-sizing: border-box;min-height: inherit;}
+a{text-decoration:none}
+textarea{overflow:auto;resize:none}
+a,button,img,input,textarea,video{outline:0;border:none}
+li,ul{list-style:none}
+.msg-info{
+  width: 200px;
+  padding: 20px;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  margin-left: -110px;
+  background-color: rgba(0,0,0,.5);
+  border-radius: 1rem;
+  text-align: center;
+  color: #fff;
+  display: none;
+}
+// 在移动端的时候适配切换效果
+@media screen and (max-width: 750px) {
+  body {
+    animation:move .3s linear;
+    -webkit-animation:move .3s infinite;
+    animation-iteration-count:1;
+    -webkit-animation-iteration-count:1;
+  }
+  @keyframes move{
+    0%{
+      transform: translate(100%);
+      -webkit-transform: translate(100%);
+    }
+    100%{
+      transform: translate(0%);
+      -webkit-transform: translate(0%);
+    }
+  }
+}
+@media screen and (min-width: 750px) {
+  body {
+    width: 750px;
+    margin: 0 auto;
+  }
+  html{
+    font-size: 16px;
+  }
+}
+.hide{visibility:hidden}
+// 头部标题
+.title-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .66rem;
+  background-color: #f7f7f7;
+  .icon-zuo{
+    font-size: 1.66rem;
+    color: #101010;
+  }
+  .title{
+    font-size: 1.26rem;
+    font-weight: normal;
+    color: #101010 94%;
+  }
+}
+// 按钮
+.black-btn,.red-btn{width:20.66rem;height:3rem;display:block;margin:1rem auto;text-align:center;line-height:3rem;color:#fff;border-radius:3rem;box-shadow:0 4px 6px 1px rgba(25,94,215,.4)}
+.red-btn{background-color:#ef0505}
+.black-btn{background-color:#625f5f}
+// 字体
+@font-face{font-family:iconfont;src:url(../fonts/iconfont.ttf) format('truetype')}
+.iconfont{font-family:iconfont!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-webkit-text-stroke-width:.2px}
+.icon-shezhi:before{content:"\e62d"}
+.icon-right:before{content:"\e634"}
+.icon-yinghangka:before{content:"\e66a"}
+.icon-zuo:before{content:"\e61c"}
+.icon-ai-book:before{content:"\e62e"}
+.icon-tupian:before{content:"\e64a"}
+.icon-caidan:before{content:"\e691"}
+.icon-caidan2:before{content:"\e653"}
+.icon-caozuo:before{content:"\e60a"}
+.icon-tianjia:before{content:"\e617"}
+.icon-gouwuche:before{content:"\e681"}
+.icon-bi:before{content:"\e62f"}
+.icon-rili:before {content: "\e607";}
+.icon-fujian:before {content: "\e608";}
+.icon-sousuo:before {content: "\e618";}
+.icon-shaixuan:before {content: "\e630";}
+.icon-caidan_wujiaoxingman:before {content: "\e6b4";}
+.icon-caidan_wujiaoxingkong:before {content: "\e6b5";}
