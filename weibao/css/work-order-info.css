@@ -1,0 +1,16 @@
+.content {
+  padding: 0.66rem;
+  background-color: #fff;
+  margin-bottom: 2.46rem;
+}
+.content h2 {
+  text-align: center;
+  font-size: 1.33rem;
+}
+.content p {
+  margin-top: 1.53rem;
+  font-size: 1.2rem;
+}
+.content p .look-order {
+  color: #C90707;
+}

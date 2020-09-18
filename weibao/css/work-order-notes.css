@@ -1,0 +1,58 @@
+.date-wrap {
+  padding: 0.66rem 1.8rem;
+}
+.date-wrap .date-box {
+  height: 2.66rem;
+  background-color: #fff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+.date-wrap .date-box > span {
+  font-size: 0.93rem;
+  color: #909399;
+  margin-right: 0.6rem;
+}
+.statistics {
+  background-color: #fff;
+  padding: 1rem;
+}
+.statistics p {
+  font-size: 1.2rem;
+  color: #C90707;
+}
+.content .card {
+  margin-top: 0.26rem;
+  color: #101010;
+  display: block;
+  background-color: #fff;
+}
+.content .card .card-title {
+  padding: 0 1.33rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .card .card-title h4 {
+  line-height: 3.26rem;
+  font-size: 0.93rem;
+}
+.content .card .card-content {
+  border-top: 0.04rem solid #E4E4E4;
+  line-height: 2.6rem;
+  padding: 0 1.33rem;
+  font-size: 0.93rem;
+  display: flex;
+  align-items: center;
+}
+.content .card .card-content .isok {
+  margin-left: 0.8rem;
+}
+.no-order {
+  display: none;
+  padding: 4rem 0;
+  background-color: #fff;
+  text-align: center;
+  font-size: 1.86rem;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>填写报价单(第二步)</title>
+  <script src="./public/jquery-3.3.1.min.js"></script>
+  <link rel="stylesheet" href="./public/res.css">
+  <link rel="stylesheet" href="./css/fill-price2.css">
+</head>
+
+<body>
+  <div class="title-box">
+    <a href="javascript:history.back(-1)" class="iconfont icon-zuo"></a>
+    <h3 class="title">填写报价单</h3>
+    <span class="hide iconfont icon-zuo"></span>
+  </div>
+  <div class="content">
+    <p class="title">新增设备</p>
+    <div class="item">
+      <label for="">名称</label>
+      <input type="text" class="device_name" placeholder="请输入名称">
+    </div>
+    <div class="item">
+      <label for="">规格型号</label>
+      <input type="text" class="device_type" placeholder="请输入规格型号">
+    </div>
+    <div class="item">
+      <label for="">品牌</label>
+      <input type="text" class="device_brand" placeholder="请输入品牌">
+    </div>
+    <div class="item">
+      <label for="">单位</label>
+      <input type="text" class="unit" placeholder="请输入单位">
+    </div>
+    <div class="item">
+      <label for="">数量</label>
+      <input type="text" class="num" placeholder="请输入数量">
+    </div>
+    <div class="item">
+      <label for="">单价</label>
+      <input type="text" class="price" placeholder="请输入单价">
+    </div>
+    <div class="item">
+      <label for="">备注</label>
+      <input type="text" class="info" placeholder="请输入备注">
+    </div>
+  </div>
+  <a class="red-btn continue" href="#">继续新增设备</a>
+  <a class="black-btn finish" href="#">完成报价</a>
+</body>
+<script src="./public/res.js"></script>
+<script src="./js/fill-price2.js"></script>
+
+</html>

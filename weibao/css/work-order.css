@@ -1,0 +1,53 @@
+.tab-wrap {
+  display: flex;
+  background-color: #F0F2F5;
+}
+.tab-wrap > span {
+  flex: 1;
+  font-size: 0.93rem;
+  color: #303133;
+  line-height: 2.46rem;
+  text-align: center;
+}
+.tab-wrap > span.active {
+  background-color: #EF0505;
+  color: #fff;
+}
+.content .card {
+  margin-top: 0.26rem;
+  color: #101010;
+  background-color: #fff;
+}
+.content .card .card-title {
+  color: #101010;
+  padding: 0 1.33rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .card .card-title h4 {
+  line-height: 3.26rem;
+  font-size: 0.93rem;
+}
+.content .card .card-content {
+  color: #101010;
+  border-top: 0.04rem solid #E4E4E4;
+  line-height: 2.6rem;
+  padding: 0 1.33rem;
+  font-size: 0.93rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tab2 {
+  display: none;
+}
+.tab3 {
+  display: none;
+}
+.tab4 {
+  display: none;
+}
+.tab5 {
+  display: none;
+}

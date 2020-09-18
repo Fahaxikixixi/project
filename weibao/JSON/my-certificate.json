@@ -1,0 +1,13 @@
+{
+  "error_code": 0,
+  "data": {
+    "title": "粒子智能认证工程师",
+    "name": "吴系挂", 
+    "sex": "男",
+    "lv": "初级",
+    "issuer": "粒子智能",
+    "authenticator": "粒子智能",
+    "user_img": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3817194197,3534563892&fm=26&gp=0.jpg",
+    "marjor": "xx专业"
+  }
+}
